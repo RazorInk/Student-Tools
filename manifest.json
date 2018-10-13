@@ -1,7 +1,7 @@
 {
-	"manifest_version":2,
-	"name":"TBC3K",
-	"description": "Find texbooks at competitive rates!",
+	"manifest_version":0.0.1,
+	"name":"Student Dashboard",
+	"description": "Stay organized through the new tab window",
 	"version":"1",
 	"author":"Stephen Seymour",
 
@@ -14,5 +14,12 @@
 	"chrome_url_overrides":{
 		"newtab":"newtab.html"
 	},
-	"permissions":["activeTab"]
+	"permissions":["activeTab"],
+
+	"icons":{
+			"16":"icon16.png",
+			"48":"icon48.png",
+			"128":"icon128.png"
+	}
+
 }
